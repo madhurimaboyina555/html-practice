@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to Canvas</title>    
+    </head>
+    <body>
+    
+    <canvas id="myCanvas" height="500px" width="500px" style="border:1px solid 
+                                                              #d3d3d3">
+        </canvas>
+    </body>
+    <script>
+    var c=document.getElementById("myCanvas");
+     var ctx=c.getContext('2d');
+        ctx.strokeStyle="red";
+       
+        ctx.fillStyle="blue";
+        ctx.stroke();
+         ctx.strokeRect(10,10,300,300);
+        ctx.fillRect(9,9,260, 260);
+       </script> 
+   
+    
+</html>
